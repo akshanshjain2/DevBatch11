@@ -1,0 +1,11 @@
+DateTimeMethodsDemo dtmd = new DateTimeMethodsDemo();
+dtmd.calculateAgeInMonths();
+dtmd.calculateAgeInDays();
+dtmd.printSubscriptionEndDate();
+dtmd.printOfferEndDate();
+dtmd.printBirthDateinMilliSeconds();
+System.debug('2020 is leap year ? --> ' + dtmd.leapYearCheck(Date.newInstance(2020, 1, 1)));
+System.debug('2021 is leap year ? --> ' + dtmd.leapYearCheck(Date.newInstance(2021, 1, 1)));
+System.debug('2022 is leap year ? --> ' + dtmd.leapYearCheck(Date.newInstance(2022, 1, 1)));
+System.debug('2023 is leap year ? --> ' + dtmd.leapYearCheck(Date.newInstance(2023, 1, 1)));
+System.debug('2024 is leap year ? --> ' + dtmd.leapYearCheck(Date.newInstance(2024, 1, 1)));
